@@ -1,11 +1,14 @@
 
 import './App.css';
-import Recipeitem from './recipe-item/Recipeitem';
+import Header from './Components/Header/Header';
+import Recipeitem from './Components/recipe-item/Recipeitem';
 
 function App() {
-  
+
   return (
+
     <div className="App">
+      <Header/>
     <Recipeitem
     recipe={{
       id:1,
@@ -14,13 +17,13 @@ function App() {
     />
      <Recipeitem
     recipe={{
-      id:1,
+      id:2,
       name:'Плов',
     }}
     />
      <Recipeitem
     recipe={{
-      id:1,
+      id:3,
       name:'Манты',
     }}
     />
